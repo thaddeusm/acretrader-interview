@@ -10,7 +10,7 @@
           </h2>
         </div>
         <div class="card-body">
-          <button @click={openItemView(index)}>
+          <button @click="openItemView(index)">
             read more
           </button>
         </div>
