@@ -1,10 +1,10 @@
 <template>
 	<div class="card">
 		<div class="card-header">
-	  	<h6>{{ item.id }} by user {{ item.userId }}</h6>
-	  	<h2>{{ item.title }}</h2>
-	  </div>
-	  <div class="card-body">
+			<h6>{{ item.id }} by user {{ item.userId }}</h6>
+			<h2>{{ item.title }}</h2>
+		</div>
+		<div class="card-body">
 			<p v-if="item.completed">
 				task complete
 			</p>
